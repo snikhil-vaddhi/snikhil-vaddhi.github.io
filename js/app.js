@@ -43,7 +43,7 @@ scrollLinks.forEach((link) => {
     if (id === "services") {
       const element = document.getElementById(id);
 
-      position = element.offsetTop - 63;
+      position = element.offsetTop - 70;
     }
 
     window.scrollTo({
