@@ -196,7 +196,7 @@ Navbar
 }
 .nav {
   position: fixed;
-  top: 0;
+  height: auto;
   left: 0;
   width: 100%;
   height: 10rem;
@@ -204,6 +204,7 @@ Navbar
   display: grid;
   align-items: center;
   transition: var(--transition);
+  /* margin-bottom: 5rem; */
 }
 .nav-center {
   width: 100%;
@@ -401,6 +402,7 @@ Hero
 */
 /* underline added to globals */
 .hero .underline {
+  margin-top: 12rem;
   margin-bottom: 0.5rem;
   margin-left: 0;
 }
@@ -415,6 +417,9 @@ Hero
   display: grid;
   place-items: center;
 }
+/* .hero-info h1 {
+  padding-top: 5rem;
+} */
 .hero-info h3 {
   color: var(--clr-grey-5);
   line-height: 2.5rem;
@@ -443,6 +448,9 @@ Hero
   margin-top: 1.25rem;
 }
 @media screen and (min-width: 992px) {
+  .hero .underline {
+    margin-top: 0rem;
+  }
   .hero-img {
     display: block;
     position: relative;
