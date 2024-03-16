@@ -38,12 +38,12 @@ scrollLinks.forEach((link) => {
     if (id === "about") {
       const element = document.getElementById(id);
 
-      position = element.offsetTop - 140;
+      position = element.offsetTop - 80;
     }
     if (id === "services") {
       const element = document.getElementById(id);
 
-      position = element.offsetTop - 70;
+      position = element.offsetTop - 80;
     }
 
     window.scrollTo({

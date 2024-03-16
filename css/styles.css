@@ -178,6 +178,8 @@ p {
 }
 .bg-grey {
   background: var(--clr-grey-10);
+  position: relative;
+  overflow-y: scroll;
 }
 /* added during recording */
 
@@ -193,6 +195,10 @@ Navbar
   color: black;
 }
 .nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   height: 10rem;
   padding: 1rem;
   display: grid;
@@ -582,6 +588,9 @@ Services
 }
 .tools {
   color: purple;
+}
+.service-div {
+  position: relative;
 }
 @media screen and (min-width: 676px) {
   .services-center {
