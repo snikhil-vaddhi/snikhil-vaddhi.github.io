@@ -28,34 +28,31 @@ scrollLinks.forEach((link) => {
     // prevent default
     e.preventDefault();
     // links.classList.remove("show-links");
-    let position = null;
     const id = e.target.getAttribute("href").slice(1);
-    if (id === "home") {
-      const element = document.getElementById(id);
-
-      position = element.offsetTop - 63;
+    const element = document.getElementById(id);
+    let position = element.offsetTop - 62;
+    console.log(id);
+    console.log(element);
+    console.log(position);
+    // if (element) {
+    //   const offsetTop = element.offsetTop - navbarHeight;
+    if (id === "project") {
+      position += 1890;
+      console.log(position);
+    } else if (id === "contact") {
+      position += 1800;
+      console.log(position);
     }
-    if (id === "about") {
-      const element = document.getElementById(id);
-
-      position = element.offsetTop - 80;
-    }
-    if (id === "services") {
-      const element = document.getElementById(id);
-
-      position = element.offsetTop - 80;
-    }
-
     window.scrollTo({
       left: 0,
-      // top: element.offsetTop,
       top: position,
       behavior: "smooth",
     });
-    window.addEventListener("scroll", () => {
-      if (sidebar.classList.contains("show-sidebar")) {
-        sidebar.classList.remove("show-sidebar");
-      }
-    });
+    // }
+
+    // Close sidebar if open
+    if (sidebar.classList.contains("show-sidebar")) {
+      sidebar.classList.remove("show-sidebar");
+    }
   });
 });
