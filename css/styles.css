@@ -416,6 +416,9 @@ Hero
   margin-bottom: 0.5rem;
   margin-left: 0;
 }
+.spacing {
+  text-transform: uppercase;
+}
 .hero-img {
   display: none;
 }
@@ -424,7 +427,7 @@ Hero
 }
 .hero-center {
   /* min-height: calc(100vh - 5rem); */
-  min-height: 940px;
+  min-height: 950px;
   display: grid;
   place-items: center;
 }
@@ -716,11 +719,12 @@ Projects
 }
 .project-info p {
   text-transform: capitalize;
-  color: var(--clr-white);
+  /* color: var(--clr-white); */
 }
 .project:hover .project-info {
   opacity: 1;
 }
+
 .project-img {
   transition: var(--transition);
   border-radius: var(--radius);
@@ -728,7 +732,8 @@ Projects
   object-fit: cover;
 }
 .project:hover .project-img {
-  opacity: 0.1;
+  opacity: 0;
+  /* transform: scale(1.2); */
 }
 .project::after {
   content: "";
@@ -740,7 +745,7 @@ Projects
   border: 0.25rem solid var(--clr-white);
   border-radius: var(--radius);
   transition: var(--transition);
-  opacity: 0;
+  opacity: 0.1;
 }
 .project:hover::after {
   opacity: 1;
