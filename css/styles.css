@@ -472,11 +472,11 @@ Hero
   .about-img::before {
     content: "";
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: 103%;
+    height: 103%;
     border: 0.25rem solid var(--clr-primary-5);
     top: 1.5rem;
-    right: -1.5rem;
+    right: -2.4rem;
     border-radius: var(--radius);
   }
 }
@@ -487,20 +487,14 @@ Hero
   }
 } */
 .hero-photo {
-  max-width: 31rem;
-  -o-object-fit: cover;
-  object-fit: cover;
-  border-radius: var(--radius);
-  position: relative;
-}
-.hero-photo-1 {
-  max-width: 25rem;
+  max-width: 35rem;
   max-height: 35rem;
   -o-object-fit: cover;
   object-fit: cover;
   border-radius: var(--radius);
   position: relative;
 }
+
 /*
 =============== 
 About
@@ -523,7 +517,6 @@ About
 }
 .about-info {
   text-align: justify;
-  font-size: 1.4rem;
 }
 @media screen and (min-width: 992px) {
   .about-center {
@@ -533,12 +526,13 @@ About
     position: relative;
   }
   .about-img::before {
-    left: -2rem;
-    height: 74%;
+    left: -2.9rem;
+    height: 85%;
   }
   .about-info {
     align-self: center;
     text-align: justify;
+    font-size: 18px;
   }
 }
 .carbon--microservices-1 {
@@ -697,8 +691,10 @@ Projects
 */
 .projects-text {
   width: 85vw;
-  max-width: 30rem;
+  max-width: 60rem;
   margin: auto;
+  text-align: justify;
+  font-size: 1.2rem;
 }
 .project {
   position: relative;
