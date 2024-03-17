@@ -412,7 +412,7 @@ Hero
 */
 /* underline added to globals */
 .hero .underline {
-  margin-top: 12rem;
+  margin-top: 10rem;
   margin-bottom: 0.5rem;
   margin-left: 0;
 }
@@ -424,7 +424,7 @@ Hero
 }
 .hero-center {
   /* min-height: calc(100vh - 5rem); */
-  min-height: 1100px;
+  min-height: 940px;
   display: grid;
   place-items: center;
 }
