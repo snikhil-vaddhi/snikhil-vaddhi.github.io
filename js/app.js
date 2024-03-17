@@ -37,10 +37,10 @@ scrollLinks.forEach((link) => {
     // if (element) {
     //   const offsetTop = element.offsetTop - navbarHeight;
     if (id === "project") {
-      position += 1800;
+      position += 1750;
       console.log(position);
     } else if (id === "contact") {
-      position += 1800;
+      position += 1700;
       console.log(position);
     }
     window.scrollTo({
