@@ -30,13 +30,19 @@ scrollLinks.forEach((link) => {
     // links.classList.remove("show-links");
     const id = e.target.getAttribute("href").slice(1);
     const element = document.getElementById(id);
-    let position = element.offsetTop - 100;
+    let position = element.offsetTop - 62;
     console.log(id);
     console.log(element);
     console.log(position);
     // if (element) {
     //   const offsetTop = element.offsetTop - navbarHeight;
-
+    if (id === "project") {
+      position += 1800;
+      console.log(position);
+    } else if (id === "contact") {
+      position += 1700;
+      console.log(position);
+    }
     window.scrollTo({
       left: 0,
       top: position,
