@@ -40,7 +40,7 @@ scrollLinks.forEach((link) => {
       position += 1800;
       console.log(position);
     } else if (id === "contact") {
-      position += 2500;
+      position += 1600;
       console.log(position);
     }
     window.scrollTo({
