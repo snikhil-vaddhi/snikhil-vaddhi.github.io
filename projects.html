@@ -3,10 +3,281 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>products page</title>
+    <title>Nikhil || Projects</title>
+    <link
+      rel="stylesheet"
+      href="./fontawesome-free-5.12.1-web/css/all.min.css"
+    />
+    <!-- css -->
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <body>
-    <h1>products page</h1>
+    <!-- navbar -->
+    <nav class="nav" id="nav">
+      <div class="nav-center">
+        <!-- nav header -->
+        <div class="nav-header">
+          <img src="./images/LOGO.png" class="nav-logo" alt="nav logo" />
+          <img src="./images/S.png" class="nav-logo nav-photo" alt="nav logo" />
+          <button class="nav-btn" id="nav-btn">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+        <!-- nav links -->
+        <ul class="nav-links">
+          <li><a href="index.html#home">home</a></li>
+          <li><a href="index.html#about">about</a></li>
+          <li><a href="index.html#services">skills</a></li>
+          <li><a href="index.html#project">projects</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- end of navbar -->
+    <!-- sidebar -->
+    <aside class="sidebar" id="sidebar">
+      <div>
+        <button id="close-btn" class="close-btn">
+          <i class="fas fa-times"></i>
+        </button>
+        <ul class="sidebar-links">
+          <li><a href="index.html#home">home</a></li>
+          <li><a href="index.html#about">about</a></li>
+          <li><a href="index.html#project">skills</a></li>
+          <li><a href="projects.html#services">projects</a></li>
+        </ul>
+        <ul class="social-icons">
+          <!-- single item -->
+          <li>
+            <a
+              href="https://www.instagram.com/nikhil_181998/"
+              target="_blank"
+              class="social-icon"
+            >
+              <i class="fab fa-instagram" id="scale-id"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/snikhil-vaddhi"
+              target="_blank"
+              class="social-icon"
+            >
+              <i class="fab fa-github" id="scale-id"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/nikhil-vaddhi/"
+              target="_blank"
+              class="social-icon"
+            >
+              <i class="fab fa-linkedin" id="scale-id"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://leetcode.com/Nikhil181998/"
+              class="social-icon"
+              target="_blank"
+            >
+              <span class="simple-icons--leetcode" id="scale-id"></span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="mailto:sainikhil.vaddhi@utdallas.edu"
+              class="social-icon"
+              target="_blank"
+            >
+              <span class="basil--gmail-outline" id="scale-id-gmail"></span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+    <!-- end of sidebar -->
+
+    <!-- ############## -->
+    <!-- ############## -->
+    <!-- ############## -->
+    <!-- ############## -->
+    <!-- <section>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+    </section> -->
+    <header class="project-hero space">
+      <!-- section-title -->
+      <div class="section-title about-title">
+        <h1>My projects</h1>
+        <div class="underline"></div>
+      </div>
+      <!-- end of section-title -->
+    </header>
+    <section class="section">
+      <div class="section-center projects-page-center">
+        <!-- single project -->
+        <article class="single-project">
+          <div class="project-container">
+            <img src="./images/Tea station.png" alt="first project" />
+            <a
+              href="http://teastation-dallas-first-project.netlify.app/"
+              class="project-icon"
+            >
+              <i class="fas fa-home"></i>
+            </a>
+          </div>
+          <div class="project-details">
+            <h4>Tea Station</h4>
+            <p>
+              Developed a sleek and modern website for 'Tea Station,' featuring
+              a responsive design and intuitive navigation. Showcased a variety
+              of products and services, with sections detailing the company's
+              background, products, and services. Integrated contact forms for
+              easy communication and social media links for enhanced
+              connectivity. Completed with a visually appealing layout and
+              smooth user experience.
+            </p>
+            <div class="project-footer">
+              <span>
+                <i class="fab fa-github"> </i>
+              </span>
+              <a href="https://github.com/snikhil-vaddhi/html-css-tea-station"
+                >source code</a
+              >
+            </div>
+          </div>
+        </article>
+        <!-- end of single project -->
+        <article class="single-project">
+          <div class="project-container">
+            <img src="./images/backroads.png" alt="first project" />
+            <a
+              href=" https://backroads-frontend.netlify.app"
+              class="project-icon"
+            >
+              <i class="fas fa-home"></i>
+            </a>
+          </div>
+          <div class="project-details">
+            <h4>Backroads touring company</h4>
+            <p>
+              Crafted a dynamic website for 'Backroads,' a travel tour company,
+              featuring intuitive navigation, captivating hero banners,
+              informative sections detailing company background and services,
+              showcased featured tour packages, integrated a newsletter sign-up
+              form for updates, and a visually appealing gallery. Completed with
+              social media integration and smooth navigation, enhancing user
+              engagement and experience.
+            </p>
+            <div class="project-footer">
+              <span>
+                <i class="fab fa-github"> </i>
+              </span>
+              <a
+                href="https://github.com/snikhil-vaddhi/frontend-backroads-project"
+                >source code</a
+              >
+            </div>
+          </div>
+        </article>
+        <!-- end of single project -->
+        <article class="single-project">
+          <div class="project-container">
+            <img src="./images/project-2.jpeg" alt="first project" />
+            <a href="link to the site" class="project-icon">
+              <i class="fas fa-home"></i>
+            </a>
+          </div>
+          <div class="project-details">
+            <h4>project name</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam ipsa
+              in pariatur aliquam nobis similique amet alias fuga dignissimos
+              nostrum totam ratione quia esse distinctio soluta, delectus
+              provident necessitatibus dolor? Velit, officiis. Magnam totam
+              ipsum saepe assumenda minus quidem numquam!
+            </p>
+            <div class="project-footer">
+              <span>
+                <i class="fab fa-github"> </i>
+              </span>
+              <a href="github-link">source code</a>
+            </div>
+          </div>
+        </article>
+        <!-- end of single project -->
+      </div>
+    </section>
+    <!-- ############## -->
+    <!-- ############## -->
+    <!-- ############## -->
+    <!-- ############## -->
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="projects-edit">
+        <img src="./images/S.png" class="nav-photo" alt="footer-logo" />
+        <p class="extra">Learn something new every day</p>
+        <ul class="social-icons">
+          <!-- single item -->
+          <li>
+            <a
+              href="https://www.instagram.com/nikhil_181998/"
+              target="_blank"
+              class="social-icon"
+            >
+              <i class="fab fa-instagram" id="scale-id"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/snikhil-vaddhi"
+              target="_blank"
+              class="social-icon"
+            >
+              <i class="fab fa-github" id="scale-id"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/nikhil-vaddhi/"
+              target="_blank"
+              class="social-icon"
+            >
+              <i class="fab fa-linkedin" id="scale-id"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://leetcode.com/Nikhil181998/"
+              class="social-icon"
+              target="_blank"
+            >
+              <span class="simple-icons--leetcode" id="scale-id"></span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="mailto:sainikhil.vaddhi@utdallas.edu"
+              class="social-icon"
+              target="_blank"
+            >
+              <span class="basil--gmail-outline" id="scale-id-gmail"></span>
+            </a>
+          </li>
+          <!-- end of single item -->
+        </ul>
+
+        <p class="last">Handcrafted by me &copy; <span id="date"></span></p>
+      </div>
+    </footer>
+
+    <script src="./js/app.js"></script>
   </body>
 </html>
