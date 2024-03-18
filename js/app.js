@@ -3,6 +3,7 @@ const navBtn = document.querySelector("#nav-btn");
 const closeBtn = document.querySelector("#close-btn");
 const sidebar = document.querySelector("#sidebar");
 const date = document.querySelector("#date");
+// const projectLink = document.getElementById("projects");
 // add fixed class to navbar
 window.addEventListener("scroll", function () {
   if (window.pageYOffset > 80) {
@@ -56,4 +57,11 @@ scrollLinks.forEach((link) => {
       sidebar.classList.remove("show-sidebar");
     }
   });
+});
+const projectsLink = document.getElementById("projects");
+projectsLink.addEventListener("click", function() {
+  // Close sidebar
+  if (sidebar.classList.contains("show-sidebar")) {
+    sidebar.classList.remove("show-sidebar");
+  }
 });
