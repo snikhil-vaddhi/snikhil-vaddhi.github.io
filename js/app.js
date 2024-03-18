@@ -36,13 +36,14 @@ scrollLinks.forEach((link) => {
     console.log(position);
     // if (element) {
     //   const offsetTop = element.offsetTop - navbarHeight;
-    if (id === "project") {
-      position += 1815;
-      console.log(position);
-    } else if (id === "contact") {
-      position += 1700;
-      console.log(position);
-    }
+    // if (id === "project") {
+    //   position += 1815;
+    //   console.log(position);
+    // }
+    // if (id === "contact") {
+    //   position += 1700;
+    //   console.log(position);
+    // }
     window.scrollTo({
       left: 0,
       top: position,

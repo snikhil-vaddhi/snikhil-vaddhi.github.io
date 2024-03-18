@@ -1106,13 +1106,6 @@ Footer
 .footer img {
   margin-top: 2rem;
 }
-.footer-photo {
-  margin-top: 10rem;
-}
-.projects-edit {
-  transform: translateY(5rem);
-  padding: 5rem;
-}
 .projects-edit img {
   margin-left: 6.5rem;
 }
