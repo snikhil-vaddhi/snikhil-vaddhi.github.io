@@ -183,6 +183,14 @@ p {
   margin-bottom: 4rem;
   text-align: center;
 }
+.subsection-title {
+  margin-top: 2rem;
+  margin-left: 40%;
+  background: #80ced6;
+  text-align: center;
+  width: 20%;
+  padding: 0.5rem;
+}
 .bg-grey {
   background: var(--clr-grey-10);
   width: 100%;
