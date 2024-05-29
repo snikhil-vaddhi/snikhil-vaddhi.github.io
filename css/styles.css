@@ -730,6 +730,29 @@ Projects
   border-radius: var(--radius);
   margin-bottom: 2rem;
 }
+.new-tag {
+  position: absolute;
+  top: 10px; /* Adjust the value to move the tag vertically */
+  right: 10px; /* Adjust the value to move the tag horizontally */
+  background-color: red; /* Initial background color */
+  color: white; /* Tag text color */
+  padding: 5px 10px; /* Padding inside the tag */
+  font-size: 12px; /* Font size of the tag text */
+  font-weight: bold; /* Font weight of the tag text */
+  border-radius: 3px; /* Optional: Add border-radius for rounded corners */
+  animation: twinkle 1s infinite; /* Apply the twinkle animation */
+}
+
+/* Define the keyframes for the twinkle animation */
+@keyframes twinkle {
+  0%,
+  100% {
+    background-color: red;
+  }
+  50% {
+    background-color: purple; /* Color at the midpoint of the animation */
+  }
+}
 .project-info {
   text-align: center;
   color: var(--clr-white);
@@ -1162,6 +1185,7 @@ Products Page
   margin-bottom: 0;
 }
 .single-project {
+  position: relative;
   background: var(--clr-grey-10);
   border-radius: var(--radius);
   /* border: black 2px solid; */
