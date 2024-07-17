@@ -513,6 +513,15 @@ Hero
   border-radius: var(--radius);
   position: relative;
 }
+.hero-photo-2 {
+  height: 39.4rem;
+  max-width: 25rem;
+  max-height: 50rem;
+  -o-object-fit: cover;
+  object-fit: cover;
+  border-radius: var(--radius);
+  position: relative;
+}
 
 /*
 =============== 
@@ -546,7 +555,7 @@ About
   }
   .about-img::before {
     left: -2rem;
-    height: 81%;
+    height: 80%;
   }
   .about-info {
     align-self: center;
